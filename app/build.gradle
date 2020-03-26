@@ -3,7 +3,7 @@ apply plugin: 'com.android.application'
 android {
     signingConfigs {
         debug {
-            storeFile file('F:\\src\\android\\jsk\\app\\ms.jks')
+            storeFile file('./ms.jks')
             storePassword 'ms2020'
             keyAlias = 'ms'
             keyPassword 'ms2020'
@@ -13,7 +13,7 @@ android {
     buildToolsVersion "29.0.3"
 
     defaultConfig {
-        applicationId "org.ms.jks"
+        applicationId "org.ms.dev"
         minSdkVersion 16
         targetSdkVersion 29
         versionCode 1
